@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "codemirror": "^5.41.0",
     "immutable": "^4.0.0-rc.12",
     "include-media": "^1.4.9",
     "marked": "^0.5.1",
+    "moment": "^2.22.2",
     "node-sass": "^4.9.4",
     "open-color": "^1.6.3",
     "prismjs": "^1.15.0",
+    "query-string": "^5.1.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
@@ -19,6 +22,7 @@
     "redux": "^4.0.1",
     "redux-actions": "^2.6.3",
     "redux-pender": "^1.2.1",
+    "remove-markdown": "^0.3.0",
     "sass-loader": "^7.1.0"
   },
   "scripts": {
@@ -35,5 +39,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "proxy": "http://localhost:4000"
 }

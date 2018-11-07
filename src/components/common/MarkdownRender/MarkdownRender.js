@@ -22,7 +22,7 @@ class MarkdownRender extends Component {
     const { markdown } = this.props;
     //마크다운이 존재하지 않는다면 공백처리
     if(!markdown) {
-      this.setState({html: ''});
+      this.setState({ html : '' });
       return;
     }
     this.setState({
@@ -37,8 +37,9 @@ class MarkdownRender extends Component {
     super(props);
     const { markdown } = props;
 
+    // 서버사이드 렌더링에서도 마크다운 처리가 되도록 constructor 쪽에서도 구현
     this.state = {
-      html: markdown ? markdown(props.markdown, { breaks: true, sanitize: true}) : ''
+      html: markdown ? marked(props.markdown, { breaks: true, sanitize: true }) : ''
     }
   }
 
