@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633c4323-fa44-4f01-aa06-beb224ea0c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/NotFound/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/NotFound/NotFound.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/NotFound/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NotFoundPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NotFoundPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ListPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
-          <entry key="js" value="144" />
+          <entry key="js" value="146" />
           <entry key="json" value="1" />
           <entry key="scss" value="38" />
           <entry key="xml" value="1" />
@@ -45,7 +45,7 @@
         <counts>
           <entry key=".env file" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="144" />
+          <entry key="JavaScript" value="146" />
           <entry key="SCSS" value="38" />
           <entry key="XML" value="1" />
         </counts>
@@ -53,18 +53,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="15" />
-          <entry key="js" value="21157" />
+          <entry key="js" value="21391" />
           <entry key="json" value="33" />
           <entry key="scss" value="659" />
-          <entry key="txt" value="6" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="15" />
           <entry key="JSON" value="33" />
-          <entry key="JavaScript" value="21157" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JavaScript" value="21391" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="SCSS" value="659" />
         </counts>
       </usages-collector>
@@ -216,16 +216,40 @@
             <entry file="file://$PROJECT_DIR$/src/components/common/NotFound/NotFound.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
-                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+                  <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pages/NotFoundPage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/containers/post/Post.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="473">
+                  <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/pages/NotFoundPage.js">
+            <entry file="file://$PROJECT_DIR$/src/pages/ListPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -238,30 +262,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state>
                   <caret column="37" selection-start-column="37" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/store/modules/post.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" selection-start-line="18" selection-end-line="18" />
-                  <folding>
-                    <element signature="e#17#77#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/containers/common/HeaderContainer.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -340,10 +340,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pages/EditorPage.js" />
         <option value="$PROJECT_DIR$/src/components/post/PostBody/PostBody.js" />
-        <option value="$PROJECT_DIR$/src/containers/post/Post.js" />
         <option value="$PROJECT_DIR$/src/components/post/PostInfo/PostInfo.js" />
         <option value="$PROJECT_DIR$/src/components/common/MarkdownRender/MarkdownRender.js" />
-        <option value="$PROJECT_DIR$/src/pages/ListPage.js" />
         <option value="$PROJECT_DIR$/src/components/list/PostList/PostList.js" />
         <option value="$PROJECT_DIR$/src/components/common/Button/Button.js" />
         <option value="$PROJECT_DIR$/src/components/list/Pagination/Pagination.js" />
@@ -380,6 +378,8 @@
         <option value="$PROJECT_DIR$/src/components/common/NotFound/NotFound.js" />
         <option value="$PROJECT_DIR$/src/components/common/NotFound/NotFound.scss" />
         <option value="$PROJECT_DIR$/src/pages/NotFoundPage.js" />
+        <option value="$PROJECT_DIR$/src/containers/post/Post.js" />
+        <option value="$PROJECT_DIR$/src/pages/ListPage.js" />
       </list>
     </option>
   </component>
@@ -423,97 +423,7 @@
               <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="NotFound" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="PageTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="editor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -526,7 +436,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541576615652" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541577124657" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
@@ -564,7 +474,7 @@
       <workItem from="1541055761015" duration="46000" />
       <workItem from="1541055827727" duration="26634000" />
       <workItem from="1541496388936" duration="13869000" />
-      <workItem from="1541576281917" duration="318000" />
+      <workItem from="1541576281917" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="API 연동">
       <created>1541572371840</created>
@@ -573,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541572371840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="404 페이지">
+      <created>1541576708293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541576708293</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40867000" />
+    <option name="totallyTimeSpent" value="41373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
@@ -646,7 +563,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="API 연동" />
-    <option name="LAST_COMMIT_MESSAGE" value="API 연동" />
+    <MESSAGE value="404 페이지" />
+    <option name="LAST_COMMIT_MESSAGE" value="404 페이지" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/common/MarkdownRender/MarkdownRender.scss">
@@ -713,26 +631,6 @@
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="e#15#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/post/Post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ListPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1080,14 +978,34 @@
     <entry file="file://$PROJECT_DIR$/src/components/common/NotFound/NotFound.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/NotFoundPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
