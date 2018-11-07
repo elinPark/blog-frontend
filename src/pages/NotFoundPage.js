@@ -1,8 +1,14 @@
 import React from 'react';
+import NotFound from 'components/common/NotFound';
 
-const NotFoundPage = () => {
-  return(
-    <div>NotFound</div>
+const NotFoundPage = ({history, staticContext}) => {
+  // staticContext 는 서버쪽에서만 존재
+  if(staticContext) {
+    staticContext.isNotFound = true;
+  }
+
+  return (
+      <NotFound onGoBack={history.goBack}/>
   )
 }
 
